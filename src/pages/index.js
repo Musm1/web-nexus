@@ -54,6 +54,12 @@ export default function Home() {
                   +92-334-1907479
                   </Link>
               </div>
+              <div className='flex items-center self-start mt-2 lg:self-center'>
+              <p 
+                className='text-lg font-medium underline underline-offset-4 text-dark dark:text-light md:text-base'>
+                  nexusmedicalresearchgroup@gmail.com
+                  </p>
+              </div>
             </div>
           </div>
         </Layout>

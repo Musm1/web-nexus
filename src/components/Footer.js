@@ -10,8 +10,13 @@ const Footer = () => {
             <div>
                 Built by <Link className='underline underline-offset-2' href="https:musm1.vercel.app" target={"_blank"}>Mishkat Ullah Saif</Link>
             </div>
-            <div>
-                Join Nexus <Link href="/" className='underline underline-offset-2 text-emerald-500'>WhatsApp Group</Link>
+            <div className='flex flex-col self-center justify-center text-center'>
+              <div>
+              Join Nexus <Link href="https://chat.whatsapp.com/HCFBEixCDiFEj6SvVI19gK" target={'_blank'} className='text-green-400 underline underline-offset-2 '>Whatsapp Group</Link>
+              </div>
+              <div>
+              Follow Nexus <Link href="https://instagram.com/img.nmrg?igshid=YmMyMTA2M2Y=" target={'_blank'} className='text-orange-400 underline underline-offset-2 '>Instagram Page</Link>
+              </div>
             </div>
         </Layout>
     </footer>
